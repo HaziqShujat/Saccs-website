@@ -63,7 +63,7 @@ const PricingTable: React.FC = () => {
   ];
 
   return (
-    <section className="relative no-scrollbar flex flex-col overflow-hidden overflow-y-auto h-svh items-center justify-center bg-[#4D453E]">
+    <section className="relative  no-scrollbar flex flex-col overflow-hidden overflow-y-auto h-svh items-center justify-center bg-[#4D453E]">
       {/* Background image */}
       <img
         className="absolute w-full h-full lg:w-auto lg:h-auto"

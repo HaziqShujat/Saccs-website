@@ -1,5 +1,6 @@
 import Faqs from "./Components/Faqs/Faqs"
 import Footer from "./Components/Footer/Footer"
+import { GlobeDemo } from "./Components/Globe/Globe"
 import { NavbarDemo } from "./Components/Header/Navheader"
 
 import { LampDemo } from "./Components/Lampettect/Lampeffect"
@@ -22,13 +23,17 @@ function App() {
       </header>
 
       <section>
+        <div >
+
         <LampDemo/>
+        </div>
         {/* <HeroParallaxDemo/> */}
         {/* <TextGenerateEffectDemo/> */}
         <Logosample/>
         <StickyScrollRevealDemo/>
         <InfiniteMovingCardsDemo/>
         <PricingTable/>
+        {/* <GlobeDemo/> */}
         <div>
           <Faqs/>
         </div>
@@ -38,7 +43,7 @@ function App() {
         </div>
       </section>
       <footer>
-        <Footer/>
+        <Footer className="className"/>
       </footer>
     </>
   )

@@ -1,5 +1,6 @@
 
 
+
 const navigation = [
   {
     name: 'Facebook',
@@ -70,7 +71,7 @@ const navigation = [
 ];
 
 type FooterProps = {
-className:string
+className:string,
 };
 
 const Footer: React.FC<FooterProps> = () => {

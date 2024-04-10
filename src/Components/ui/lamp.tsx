@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-16 bg-gradient-to-br from-slate-300 to-slate-500 py-9 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-16 bg-gradient-to-br from-slate-300 to-slate-500 py-14 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         Build lamps <br /> the right way
       </motion.h1>
@@ -36,7 +36,7 @@ export const LampContainer = ({
         className
       )}
     >
-      <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0 ">
+      <div className="relative flex w-full flex-1 p-[12rem] scale-y-125 items-center justify-center isolate z-0 ">
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
           whileInView={{ opacity: 1, width: "30rem" }}
