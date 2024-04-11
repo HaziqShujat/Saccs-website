@@ -41,21 +41,21 @@ export function Button({
     >
       <div
         className="absolute inset-0"
-        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
+        style={{ borderRadius: `calc(${borderRadius} * 0.9)` }}
       >
-        <MovingBorder duration={duration} rx="30%" ry="30%">
+        {/* <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
               "h-20 w-20 opacity-[0.8] bg-[radial-gradient(var(--sky-500)_40%,transparent_60%)]",
               borderClassName
             )}
           />
-        </MovingBorder>
+        </MovingBorder> */}
       </div>
 
       <div
         className={cn(
-          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative  border border-slate-200 backdrop-blur-xl bg-slate-200 text-white flex items-center justify-center w-full h-full text-sm antialiased",
           className
         )}
         style={{

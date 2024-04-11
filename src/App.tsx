@@ -1,19 +1,18 @@
 import Faqs from "./Components/Faqs/Faqs";
 import Footer from "./Components/Footer/Footer";
-import { NavbarDemo } from "./Components/Header/Navheader";
 import { LampDemo } from "./Components/Lampettect/Lampeffect";
 import Logosample from "./Components/Logosamp/Logosamp";
+import { MacbookScrollDemo } from "./Components/Mackbook/Mackbook";
 import { InfiniteMovingCardsDemo } from "./Components/Movingcards/Movingcards";
 import PricingTable from "./Components/Pricingtable/Pricingtable";
-import { StickyScrollRevealDemo } from "./Components/Stickyscrollbar/Stickyscrollbar";
 import { TypewriterEffectSmoothDemo } from "./Components/Typewriter/Typewriter";
 
 function App() {
   return (
     <>
-      <header>
+      {/* <header>
         <NavbarDemo />
-      </header>
+      </header> */}
 
       <section>
         <div>
@@ -22,7 +21,8 @@ function App() {
         {/* <HeroParallaxDemo/> */}
         {/* <TextGenerateEffectDemo/> */}
         <Logosample />
-        <StickyScrollRevealDemo />
+        {/* <StickyScrollRevealDemo /> */}
+        <MacbookScrollDemo/>
         <InfiniteMovingCardsDemo />
         <PricingTable />
         {/* <GlobeDemo/> */}
