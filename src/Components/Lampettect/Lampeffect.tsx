@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-12 bg-gradient-to-br from-stone-300 to-stone-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight  text-transparent md:text-7xl"
+        className="mt-12 bg-gradient-to-br from-slate-500 to-slate-600 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight  text-transparent md:text-7xl"
       >
         Build lamps <br /> the right way
       </motion.h1>
@@ -26,7 +26,7 @@ export function LampDemo() {
             className="mt-4 mx-auto mb-3 rounded-sm"
             src="https://gifdb.com/images/high/nature-foggy-sunrise-in-forest-dz256ju6xg1vee9d.webp" // Example image URL
             alt="Nature" // Add alt text for accessibility
-            width="640" // Specify the width
+            width="840" // Specify the width
             height="360" // Specify the height
           />
         </div>
