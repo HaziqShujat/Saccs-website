@@ -166,7 +166,7 @@ export const Lid = ({
       >
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <img
-          src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg"
+          src="https://cdn.mos.cms.futurecdn.net/iWpxSx8bKyYrjutyn52MHM.gif"
           alt="aceternity logo"
           fill
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
@@ -175,6 +175,7 @@ export const Lid = ({
     </div>
   );
 };
+
 
 export const Trackpad = () => {
   return (

@@ -1,5 +1,7 @@
 import Faqs from "./Components/Faqs/Faqs";
+import Featuresection from "./Components/Featuresection/Featuresection";
 import Footer from "./Components/Footer/Footer";
+import Imagetitle from "./Components/Imagetitle/Imagetitle";
 import { LampDemo } from "./Components/Lampettect/Lampeffect";
 import Logosample from "./Components/Logosamp/Logosamp";
 import { MacbookScrollDemo } from "./Components/Mackbook/Mackbook";
@@ -9,21 +11,22 @@ import { TypewriterEffectSmoothDemo } from "./Components/Typewriter/Typewriter";
 
 function App() {
   return (
+    
     <>
-     
-
       <section>
         <div>
           <LampDemo />
         </div>
-        {/* <HeroParallaxDemo/> */}
-        {/* <TextGenerateEffectDemo/> */}
+
         <Logosample />
-        {/* <StickyScrollRevealDemo /> */}
-        <MacbookScrollDemo/>
+
+        <MacbookScrollDemo />
+        
+        <Featuresection/>
+        <Imagetitle/>
         <InfiniteMovingCardsDemo />
         <PricingTable />
-        {/* <GlobeDemo/> */}
+
         <div>
           <Faqs />
         </div>

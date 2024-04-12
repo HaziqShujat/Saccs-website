@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { LampContainer } from "../ui/lamp";
 import { MovingBorderDemo } from "../Button/Movingbutton";
 
-
 export function LampDemo() {
   return (
     <LampContainer>
@@ -18,20 +17,21 @@ export function LampDemo() {
       >
         Build lamps <br /> the right way
       </motion.h1>
-      <div className="mt-12 dark relative text-center p-4">
-       
-        {/* Image Container */}
-        <div className="relative">
-          <img
-            className="mt-4 mx-auto mb-3 rounded-sm"
-            src="https://gifdb.com/images/high/nature-foggy-sunrise-in-forest-dz256ju6xg1vee9d.webp" // Example image URL
-            alt="Nature" // Add alt text for accessibility
-            width="840" // Specify the width
-            height="360" // Specify the height
-          />
+      <div className="mt-12  dark relative text-center p-7">
+        {/* Video Container */}
+        <div className="relative overflow-hidden">
+          <video
+            className="w-full h-auto"
+            loop
+            muted
+            autoPlay
+          >
+            <source src="/lamp.webm" type="video/webm" />
+            {/* Add additional <source> tags for other video formats (e.g., MP4) */}
+            Your browser does not support the video tag.
+          </video>
         </div>
         <MovingBorderDemo />
-
       </div>
     </LampContainer>
   );

@@ -3,10 +3,10 @@ import { Button } from "../ui/moving-border";
 
 export function MovingBorderDemo() {
   return (
-    <div>
+    <div className="mt-5">
       <Button
         borderRadius="1.75rem"
-        className="bg-white dark:bg-[#00A1B7] text-black border-[8px] dark:text-[#D5EFF3] border-neutral-200 dark:border-[#00A1B7]"
+        className=" bg-[#e2e0db] font-bold border-[8px] text-[#585755]  border-[#e2e0db]"
       >
         Borders are cool
       </Button>
