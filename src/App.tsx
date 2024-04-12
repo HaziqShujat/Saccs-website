@@ -10,9 +10,7 @@ import { TypewriterEffectSmoothDemo } from "./Components/Typewriter/Typewriter";
 function App() {
   return (
     <>
-      {/* <header>
-        <NavbarDemo />
-      </header> */}
+     
 
       <section>
         <div>
