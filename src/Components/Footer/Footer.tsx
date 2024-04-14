@@ -76,7 +76,7 @@ className:string,
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-    <footer className="bg-white">
+    <footer className="bg-[#E2E0DB]">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (

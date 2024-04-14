@@ -69,7 +69,7 @@ const PricingTable: React.FC = () => {
   };
 
   return (
-    <section className="relative pb-14 p-10 flex flex-col overflow-hidden items-center justify-center bg-[#4D453E]">
+    <section className="relative pb-14 p-10 flex flex-col overflow-hidden items-center justify-center bg-[#a19687]">
       <div className="max-w-7xl w-full overflow-y-auto">
         <div className="md:max-w-sm mx-auto">
           <div className="inline-flex w-full border rounded-full mt-6 overflow-hidden border-white/20 p-0.5 z-0">

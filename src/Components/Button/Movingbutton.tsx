@@ -6,10 +6,25 @@ export function MovingBorderDemo() {
     <div className="mt-5">
       <Button
         borderRadius="1.75rem"
-        className=" bg-[#e2e0db] font-bold border-[8px] text-[#585755]  border-[#e2e0db]"
+        className=" bg-white dark:bg-[#b4b2af] font-bold text-black dark:text-white border-neutral-200 dark:border-transparent"
       >
         Borders are cool
       </Button>
+
+
+
+
+
     </div>
+
+
+
+
+
   );
+
+
+
 }
+
+

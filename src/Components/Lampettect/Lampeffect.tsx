@@ -13,7 +13,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-12 bg-gradient-to-br from-slate-200 to-slate-200 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight  text-transparent md:text-7xl"
+        className="mt-12 bg-gradient-to-br from-[#3F3E3D] to-[#3F3E3D] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight  text-transparent md:text-7xl"
       >
         Build lamps <br /> the right way
       </motion.h1>
@@ -21,7 +21,7 @@ export function LampDemo() {
         {/* Video Container */}
         <div className="relative overflow-hidden">
           <video
-            className="w-full h-auto"
+            className="w-[40rem] h-auto"
             loop
             muted
             autoPlay
